@@ -1,0 +1,24 @@
+{
+  "name": "@abskmj/onedrive-api",
+  "version": "0.0.1",
+  "description": "OneDrive API Wrapper for Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/drive.js --timeout 5000"
+  },
+  "author": "abskmj@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-json-schema": "^1.5.0",
+    "mocha": "^3.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abskmj/onedrive-api.git"
+  }
+}
